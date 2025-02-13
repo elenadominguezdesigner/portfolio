@@ -48,7 +48,7 @@
 
 /* Sección principal con imagen de fondo */
 .hero-section {
-    background-image: url('images/hero1.jpg'); /* Imagen de fondo */
+    background-image: url('/images/hero1.jpg'); /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     text-align: center;
