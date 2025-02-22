@@ -28,8 +28,7 @@
 }
 
 .social-icons a:hover {
-    color: #CDFFD8; /* Color al pasar el mouse */
-    text-shadow: 0 2px 5px rgba(73, 73, 73, 0.3); /* Sombra sutil para resaltar los iconos */
+    color: #FF7BAC; /* Color al pasar el mouse */
 }
 
 .creators {

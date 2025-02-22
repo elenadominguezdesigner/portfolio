@@ -16,10 +16,13 @@
 }
 
 .navbar .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #FF0A76;
-    text-decoration: none;
+    width: auto; /* Ajusta al tamaño que necesites */
+    height: 60px; /* Ajusta el tamaño de la imagen */
+    transition: opacity 0.4s ease; /* Transición suave para el cambio */
+}
+
+.navbar .logo:hover {
+    background-image: url('images/elena-dominguez-texto-hover.png');
 }
 
 .navbar ul {
@@ -43,7 +46,7 @@
 }
 
 .navbar ul li a:hover {
-    text-decoration: none;
+    color:  #FF7BAC; /* El color al pasar el ratón */
 }
 
 /* Estilos generales para la hero section */
