@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Barra de navegación */
@@ -18,7 +18,7 @@
 .navbar .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #e6007e;
+    color: #FF0A76;
     text-decoration: none;
 }
 
@@ -35,9 +35,9 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: #e6007e;
+    color: #FF0A76;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 10px;
     transition: 0.3s;
 }
@@ -46,23 +46,88 @@
     text-decoration: none;
 }
 
-/* Sección principal con imagen de fondo */
+/* Estilos generales para la hero section */
 .hero-section {
     background-image: url('/images/hero1.jpg'); /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     text-align: center;
     color: white;
-    padding: 100px 20px;
+    font-family: Raleway;
+    font-weight: 500;
+    padding: 100px 40px;
 }
 
+/* Estilos generales para h1, h2 y h3 */
 .hero-section h1, .hero-section h2, .hero-section h3 {
-    font-family: 'Georgia', sans-serif;
-    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(10deg, #FF0A76, #CDFFD8); /* Degradado de rosa a azul */
+    background-size: 300% 100%; /* Permite el movimiento del degradado */
+    -webkit-background-clip: text; /* Aplica el degradado solo al texto (solo en navegadores Webkit) */
+    background-clip: text; /* Para navegadores más nuevos */
+    text-align: center; /* Asegura que el texto esté centrado */
+    display: inline-block; /* Mantiene el texto en línea y centrado */
+    overflow: hidden; /* Oculta el texto fuera del área del contenedor */
+    width: 100%; /* El ancho se adapta al contenido */
+    visibility: hidden; /* Mantiene el espacio pero oculta el contenido */
+    animation: moveGradient 5s ease-in-out infinite; /* Animación para el degradado */
+}
+
+/* Animación de tecleo para h1 */
+.hero-section h1 {
+    display: inline-block; /* El texto es tratado como bloque, pero en línea */
+    overflow: hidden; /* Oculta el texto que aún no ha sido escrito */
+    white-space: nowrap; /* No se divide el texto en varias líneas */
+    width: 100%; /* Mantiene el ancho constante */
+    visibility: hidden; /* Oculta inicialmente el texto */
+    animation: typing 3s steps(30) 1s forwards, moveGradient 5s ease-in-out infinite; /* Animación de tecleo */
+}
+
+/* Animación de tecleo de izquierda a derecha */
+@keyframes typing {
+    0% {
+        width: 0%; /* Comienza con el texto invisible */
+        visibility: hidden; /* Asegura que no sea visible */
+    }
+    100% {
+        width: 100%; /* Revela el texto completamente */
+        visibility: visible; /* Hace visible el texto */
+    }
+}
+
+/* Animación para mover el degradado */
+@keyframes moveGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Animación para h2 con retraso */
+.hero-section h2 {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%; /* Mantiene el espacio del texto */
+    visibility: hidden; /* Inicialmente oculto */
+    white-space: nowrap; /* No se divide el texto */
+    animation: typing 3s steps(30) 4s forwards, moveGradient 5s ease-in-out infinite; /* El h2 comienza después del h1 */
+}
+
+/* Animación para h3 con retraso */
+.hero-section h3 {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%; /* Mantiene el espacio del texto */
+    visibility: hidden; /* Inicialmente oculto */
+    white-space: nowrap; /* No se divide el texto */
+    animation: typing 3s steps(30) 8s forwards, moveGradient 5s ease-in-out infinite; /* El h3 comienza después del h2 */
 }
 
 .hero-section p {
     font-style: italic;
+    font-size: 20px;
 }
 
 /* Espaciado entre el h3 y el párrafo */
@@ -72,12 +137,12 @@
 
 /* Botón con borde blanco y efecto hover */
 .btn {
-    background-color: transparent; /* Fondo transparente */
+    background-color: rgba(255, 10, 118, 0.15); /* Rosa sólido con 90% de opacidad */
     color: white; /* Letras en blanco */
-    border: 2px solid white; /* Borde blanco */
+    border: 3px solid white; /* Borde blanco */
     padding: 10px 20px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bolder;
     cursor: pointer;
     margin: 20px;
     border-radius: 5px;
@@ -85,9 +150,9 @@
 }
 
 .btn:hover {
-    background-color: transparent; /* Fondo sigue transparente */
-    border: 2px solid #e6007e; /* Borde cambia a rosa */
-    color: #e6007e; /* Letras cambian a rosa */
+    background: linear-gradient(45deg, #CDFFD8 0%, #FF0A76 100%); /* Fondo sigue transparente */
+    border: 3px solid white; /* Borde cambia a rosa */
+    color: white; /* Letras cambian a rosa */
 }
 
 /* Íconos de redes */
@@ -100,6 +165,7 @@
 
 .social-icons a {
     font-size: 20px;
+    font-weight: bold;
     color: white;
     text-decoration: none;
 }
@@ -126,19 +192,37 @@
     }
 }
 
+
 /* Estilos para el grid de imágenes */
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    gap: 20px;
-    padding: 40px;
+    grid-template-columns: repeat(3, 1fr); /* Siempre 3 columnas */
+    gap: 0px; /* Sin espacio entre columnas */
+    padding: 60px;
+}
+
+/* Responsive: cambia a 2 columnas en tablets y 1 en móviles */
+@media (max-width: 1024px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
+        gap: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+    }
 }
 
 .image-container {
     position: relative;
-    width: 100%;
-    padding-bottom: 100%; /* Hace que el contenedor tenga una proporción cuadrada */
+    width: 95%;
+    gap: 0px;
+    padding-bottom: 75%; /* Hace que el contenedor tenga una proporción cuadrada */
     overflow: hidden;
+    
+    
 }
 
 .image-container img {
@@ -157,7 +241,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(230, 0, 126, 0.7); /* Rosa */
+    background-color: rgba(255, 10, 118, 0.7); /* Rosa */
     color: white;
     opacity: 0;
     display: flex;
@@ -166,11 +250,11 @@
     align-items: center;
     text-align: center; /* Asegura que el texto esté centrado */
     transition: opacity 0.3s ease;
-    padding: 10px;
+    padding: 30px;
 }
 
 .image-container:hover .overlay {
-    opacity: 1;
+    opacity: 2;
 }
 
 .image-container .overlay h3 {
@@ -180,8 +264,8 @@
 }
 
 .image-container .overlay .date {
-    font-size: 15px;
-    font-weight: 300; /* Fuente más fina */
+    font-size: 18px;
+    font-weight: 200px; /* Fuente más fina */
     margin-top: 10px; /* Espacio entre el título y la fecha */
 }
 
@@ -225,7 +309,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(230, 0, 126, 0.7); /* Rosa */
+    background-color: rgba(255, 10, 118, 0.7); /* Rosa */
     color: white;
     opacity: 0;
     display: flex;
@@ -319,7 +403,7 @@
 }
 
 .close:hover {
-    color: #e6007e;
+    color: #FF0A76;
 }
 
 /* Botones de zoom */
@@ -334,7 +418,7 @@
 }
 
 .zoom-button {
-    background-color: #e6007e; /* Rosa */
+    background-color: #FF0A76; /* Rosa */
     color: white;
     border: none;
     padding: 10px;
@@ -351,7 +435,7 @@
 }
 
 .zoom-button:hover {
-    background-color: #d2006c; /* Un tono más oscuro de rosa */
+    background-color: #FF0A76; /* Un tono más oscuro de rosa */
 }
 
 /* Estilos de la imagen en la vista previa */
