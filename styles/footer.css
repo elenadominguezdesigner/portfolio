@@ -1,21 +1,21 @@
 .footer {
     font-family: 'Raleway', sans-serif;
     background: linear-gradient(to top,  
-        rgba(255, 10, 118, 0.6) 5%,  
-        rgba(255, 100, 150, 0.5) 30%,  
-        rgba(239, 160, 181, 0.4) 50%,  
-        rgba(224, 175, 195, 0.3) 70%,  
-        rgba(205, 255, 216, 0.3) 90%,  
-        rgba(230, 255, 240, 0.6) 90%,  
-        rgba(255, 255, 255, 0.8) 100%);
-    color: #333; /* Color oscuro para mejor legibilidad */
+        rgba(255, 10, 118, 0.6) 5%,  /* Rosa al inicio */
+        rgba(255, 100, 150, 0.5) 30%,  /* Rosa intermedio más suave */
+        rgba(224, 175, 195, 0.3) 60%,  /* Rosa más claro */
+        rgba(205, 255, 216, 0.3) 80%,  /* Verde entrando más sutil */
+        rgba(230, 255, 240, 0.4) 90%,  /* Verde muy suave */
+        rgba(255, 255, 255, 0.8) 100%); /* Blanco suave al final */
+    color: #FF0A76; /* Color oscuro para mejor legibilidad */
     text-align: center;
-    padding: 40px 20px; /* Más espacio en los laterales */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+    padding: 40px 40px; /* Más espacio en los laterales */
 }
 
+
 .social-icons {
-    margin-bottom: px; /* Aumentar espacio entre los íconos y el texto de "Web Created by" */
+    margin-top: 0px;
+    margin-bottom: 20px; /* Aumentar espacio entre los íconos y el texto de "Web Created by" */
 }
 
 .social-icons a {
@@ -30,7 +30,7 @@
 }
 
 .creators {
-    margin-bottom: 20px; /* Aumenta el espacio entre el texto de los creadores y el copyright */
+    margin-bottom: 5px; /* Aumenta el espacio entre el texto de los creadores y el copyright */
 }
 
 .creators p {
@@ -39,6 +39,7 @@
 
 .year p {
     margin: 0; /* Elimina margen predeterminado */
+    color:  #FF0A76;
 }
 
 /* Asegura que el texto se mantenga legible en pantallas pequeñas */
