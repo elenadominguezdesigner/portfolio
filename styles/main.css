@@ -217,7 +217,7 @@
 
 .image-container {
     position: relative;
-    width: 95%;
+    width: 100%;
     gap: 0px;
     padding-bottom: 75%; /* Hace que el contenedor tenga una proporción cuadrada */
     overflow: hidden;
