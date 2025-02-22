@@ -2,17 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio de Elena Domínguez: proyectos, habilidades y experiencia en diseño integral.">
-        <meta name="author" content="Elena Domínguez">
-        <meta name="robots" content="index, follow">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <title>Elena Domínguez</title>
-        <link rel="stylesheet" href="styles/main.css">
-        <script src="scripts/components.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Elena Domínguez: proyectos, habilidades y experiencia en diseño integral.">
+    <meta name="author" content="Elena Domínguez">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Elena Domínguez</title>
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css"> <!-- Ruta corregida -->
+
+    <!-- Scripts -->
+    <script src="scripts/components.js" defer></script>
 </head>
 <body>
     <div id="header"></div>
+
     <main class="hero-section">
         <h1>Hi! I'm Elena Domínguez</h1>
         <h2>360º Spanish Designer</h2>
@@ -21,9 +27,10 @@
         <button class="btn" onclick="window.location.href='cv.html'">CV</button>
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/elena-dom%C3%ADnguez-102451132/" target="_blank">in</a>
-            <a href="#">✉</a>
+            <a href="mailto:elenadmguezjaen@gmail.com">✉</a>
         </div>
     </main>
+
     <!-- Grid de imágenes -->
     <section class="image-grid">
         <div class="image-container">
@@ -98,88 +105,17 @@
                 </div>
             </a>
         </div>
-        <div class="image-container">
-            <a href="pagina1.html" target="_blank">
-                <img src="images/image9.jpg" alt="Imagen 9">
-                <div class="overlay">
-                    <h3>VIVENTIUM-Fashion SS23 Collection</h3>
-                    <p class="date">2023</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container">
-            <a href="pagina1.html" target="_blank">
-                <img src="images/image10.png" alt="Imagen 10">
-                <div class="overlay">
-                    <h3>BUBBLEBANK-Interior Design</h3>
-                    <p class="date">2021</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container">
-            <a href="pagina1.html" target="_blank">
-                <img src="images/image11.png" alt="Imagen 11">
-                <div class="overlay">
-                    <h3>INTERMEDIAE-Fashion Design</h3>
-                    <p class="date">2022</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container">
-            <a href="pagina1.html" target="_blank">
-                <img src="images/image12.png" alt="Imagen 12">
-                <div class="overlay">
-                    <h3>NESTEA HONEY-Packaging Redesign</h3>
-                    <p class="date">2020</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container">
-            <a href="pagina1.html" target="_blank">
-                <img src="images/image13.png" alt="Imagen 13">
-                <div class="overlay">
-                    <h3>CICLING CAFE-Interior and Graphic Design</h3>
-                    <p class="date">2022</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container">
-            <a href="pagina1.html" target="_blank">
-                <img src="images/image14.png" alt="Imagen 14">
-                <div class="overlay">
-                    <h3>SCREWLESS ENTRANCE CABINET-Furniture Design</h3>
-                    <p class="date">2022</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container">
-            <a href="pagina1.html" target="_blank">
-                <img src="images/image15.png" alt="Imagen 15">
-                <div class="overlay">
-                    <h3>DINOSHOES-Collage and Illustration Design</h3>
-                    <p class="date">2024</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container">
-            <a href="pagina1.html" target="_blank">
-                <img src="images/image16.png" alt="Imagen 16">
-                <div class="overlay">
-                    <h3>BOOK DAY KO- Graphic Design</h3>
-                    <p class="date">2020</p>
-                </div>
-            </a>
-        </div>
-        <div class="image-container">
-            <a href="pagina1.html" target="_blank">
-                <img src="images/image17.png" alt="Imagen 17">
-                <div class="overlay">
-                    <h3>AVATAR THE WAY OF WATER-Graphic Design</h3>
-                    <p class="date">2021</p>
-                </div>
-            </a>
-        </div>
     </section>
+
+    <!-- Contenedor del footer -->
     <div id="footer"></div>
+
+    <!-- Script para cargar el footer -->
+    <script>
+        fetch('components/footer.html') // Se ajusta la ruta al footer
+            .then(response => response.text())
+            .then(html => document.getElementById('footer').innerHTML = html);
+    </script>
+
 </body>
 </html>

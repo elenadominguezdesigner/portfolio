@@ -1,0 +1,49 @@
+.footer {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to top,  
+        rgba(255, 10, 118, 0.6) 5%,  
+        rgba(255, 100, 150, 0.5) 30%,  
+        rgba(239, 160, 181, 0.4) 50%,  
+        rgba(224, 175, 195, 0.3) 70%,  
+        rgba(205, 255, 216, 0.3) 90%,  
+        rgba(230, 255, 240, 0.6) 90%,  
+        rgba(255, 255, 255, 0.8) 100%);
+    color: #333; /* Color oscuro para mejor legibilidad */
+    text-align: center;
+    padding: 40px 20px; /* Más espacio en los laterales */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+.social-icons {
+    margin-bottom: px; /* Aumentar espacio entre los íconos y el texto de "Web Created by" */
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #FF0A76; /* Color rosa para los enlaces */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+.social-icons a:hover {
+    color: #CDFFD8; /* Color al pasar el mouse */
+}
+
+.creators {
+    margin-bottom: 20px; /* Aumenta el espacio entre el texto de los creadores y el copyright */
+}
+
+.creators p {
+    margin: 0; /* Elimina margen predeterminado */
+}
+
+.year p {
+    margin: 0; /* Elimina margen predeterminado */
+}
+
+/* Asegura que el texto se mantenga legible en pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 14px; /* Reducir tamaño de fuente en pantallas más pequeñas */
+    }
+}
