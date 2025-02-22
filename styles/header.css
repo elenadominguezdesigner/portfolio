@@ -1,0 +1,29 @@
+/* Estilos del header */
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+/* Estilos para la imagen del logo */
+.name-image {
+    height: 100px; /* Ajustamos el tamaño */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 20px; /* Ajustamos el desplazamiento vertical */
+    transition: all 0.3s ease; /* Añadimos transición */
+}
+
+/* Estilos para los enlaces del navbar */
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+

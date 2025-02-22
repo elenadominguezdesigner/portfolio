@@ -16,17 +16,20 @@
 .social-icons {
     margin-top: 0px;
     margin-bottom: 20px; /* Aumentar espacio entre los íconos y el texto de "Web Created by" */
+    transition: color 0.4s ease, text-shadow 0.4s ease; /* Transición suave para el color y sombra */
 }
+
 
 .social-icons a {
     text-decoration: none;
     color: #FF0A76; /* Color rosa para los enlaces */
     font-weight: bold;
-    transition: color 0.3s ease; /* Suaviza el cambio de color */
+    transition: color 0.5s ease; /* Suaviza el cambio de color */
 }
 
 .social-icons a:hover {
     color: #CDFFD8; /* Color al pasar el mouse */
+    text-shadow: 0 2px 5px rgba(73, 73, 73, 0.3); /* Sombra sutil para resaltar los iconos */
 }
 
 .creators {
