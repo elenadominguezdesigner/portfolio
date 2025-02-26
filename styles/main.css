@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Barra de navegación */
@@ -56,14 +56,14 @@
     background-position: center;
     text-align: center;
     color: white;
-    font-family: Raleway;
+    font-family: "Poppins";
     font-weight: 500;
     padding: 100px 40px;
 }
 
 /* Estilos generales para h1, h2 y h3 */
 .hero-section h1, .hero-section h2, .hero-section h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
@@ -131,11 +131,13 @@
 .hero-section p {
     font-style: italic;
     font-size: 20px;
+    font-weight: 0;
 }
+
 
 /* Espaciado entre el h3 y el párrafo */
 .hero-section h3 {
-    margin-bottom: 20px; /* Aumenta la separación entre el h3 y el párrafo */
+    margin-bottom: 10px; /* Aumenta la separación entre el h3 y el párrafo */
 }
 
 /* Botón con borde blanco y efecto hover */
@@ -162,15 +164,24 @@
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
     margin-top: 20px;
+    transition: color 0.4s ease, text-shadow 0.4s ease; /* Transición suave */
+    font-size: 40px; /* Ajusta el tamaño de los íconos */
+    gap: 15px; /* Espacio entre los íconos */
 }
 
 .social-icons a {
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: white !important;  /* Fuerza el color blanco */
     text-decoration: none;
+    transition: color 0.5s ease, transform 0.3s ease; /* Suaviza cambios */
+    display: inline-block; /* Evita problemas con transform */
+}
+
+.social-icons a:hover {
+    color: #FF0A76 !important; /* Fuerza el cambio a rosa fucsia */
+    transform: scale(1.2); /* Hace el ícono más grande en hover */
 }
 
 /* Flecha */

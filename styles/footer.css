@@ -1,5 +1,5 @@
 .footer {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: linear-gradient(to top,  
         rgba(255, 10, 118, 0.6) 5%,  /* Rosa al inicio */
         rgba(255, 100, 150, 0.5) 30%,  /* Rosa intermedio más suave */
@@ -13,22 +13,28 @@
 }
 
 
-.social-icons {
+.social-icons2 {
     margin-top: 0px;
-    margin-bottom: 20px; /* Aumentar espacio entre los íconos y el texto de "Web Created by" */
-    transition: color 0.4s ease, text-shadow 0.4s ease; /* Transición suave para el color y sombra */
+    margin-bottom: 20px; /* Aumentar espacio entre los íconos y el texto */
+    transition: color 0.4s ease, text-shadow 0.4s ease; /* Transición suave */
+    font-size: 30px; /* Ajusta el tamaño de los íconos */
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra los íconos */
+    gap: 15px; /* Espacio entre los íconos */
 }
 
-
-.social-icons a {
+.social-icons2 a {
     text-decoration: none;
-    color: #FF0A76; /* Color rosa para los enlaces */
+    color: #FF0A76; /* Color rosa */
     font-weight: bold;
-    transition: color 0.5s ease; /* Suaviza el cambio de color */
+    font-size: 20px; /* Aumenta el tamaño del ícono */
+    transition: color 0.5s ease, transform 0.3s ease; /* Suaviza cambios */
+    display: inline-block; /* Evita problemas con transform */
 }
 
-.social-icons a:hover {
+.social-icons2 a:hover {
     color: #FF7BAC; /* Color al pasar el mouse */
+    transform: scale(1.2); /* Hace el ícono más grande en hover */
 }
 
 .creators {
