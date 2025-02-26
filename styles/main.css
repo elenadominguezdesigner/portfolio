@@ -162,14 +162,19 @@
 
 /* Íconos de redes */
 .social-icons {
+    width: 100%; /* Ocupa todo el ancho disponible */
     display: flex;
     justify-content: center;
+    align-items: center; /* Centra los iconos verticalmente */
     margin-top: 20px;
+    margin-bottom: 10px; /* Añadimos un margen inferior para separarlos de la flecha */
     transition: color 0.4s ease, text-shadow 0.4s ease; /* Transición suave */
     font-size: 40px; /* Ajusta el tamaño de los íconos */
     gap: 15px; /* Espacio entre los íconos */
+    margin: auto;
 }
 
+/* Íconos */
 .social-icons a {
     font-size: 20px;
     font-weight: bold;
@@ -179,6 +184,7 @@
     display: inline-block; /* Evita problemas con transform */
 }
 
+/* Hover sobre los íconos */
 .social-icons a:hover {
     color: #FF0A76 !important; /* Fuerza el cambio a rosa fucsia */
     transform: scale(1.2); /* Hace el ícono más grande en hover */
@@ -186,12 +192,23 @@
 
 /* Flecha */
 .arrow {
-    display: block;
-    margin: 30px auto;
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
+    display: inline-block;
+    width: 30px; /* Tamaño de la flecha */
+    height: 30px;
+    border-left: 3px solid white; /* Línea izquierda de la flecha */
+    border-bottom: 3px solid white; /* Línea derecha de la flecha */
+    transform: rotate(-45deg);
+    margin-top: 50px; /* Ajustamos la distancia de la flecha desde los iconos */
+    margin-bottom: 0px; /* Eliminamos margen abajo */
 }
+
+/* Asegúrate de que los íconos y la flecha estén alineados correctamente */
+.social-icons-container {
+    display: flex;
+    flex-direction: column; /* Asegura que los iconos y la flecha estén alineados verticalmente */
+    align-items: center; /* Centra los elementos */
+}
+
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
