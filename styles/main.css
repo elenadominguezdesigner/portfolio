@@ -42,11 +42,13 @@
     font-size: 18px;
     font-weight: bolder;
     padding: 10px;
-    transition: 0.3s;
+    transition: color 0.5s ease, transform 0.3s ease;
+    display: inline-block; /* Evita problemas con transform */
 }
 
 .navbar ul li a:hover {
     color:  #FF7BAC; /* El color al pasar el ratón */
+    transform: scale(1.1); /* Hace el ícono más grande en hover */
 }
 
 /* Estilos generales para la hero section */
