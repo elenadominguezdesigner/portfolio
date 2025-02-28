@@ -11,10 +11,77 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/footer.css">
         <script src="scripts/components.js" defer></script>
+        <style>
+            .section {
+                width: 100%;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                text-align: center;
+            }
+            .description {
+                margin: 20px 0;
+            }
+    
+            .img-container {
+                text-align: center;
+            }
+    
+            .img-container img {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+    
+            .section .logo {
+                padding: 0 15%;
+            }
+    
+            .row {
+                display: flex;
+                justify-content: space-between;
+                height: 183px;
+            }
+    
+            .row .img-container {
+                flex: 1 1 auto;
+            }
+    
+            .row .img-container img {
+                width: auto;
+                height: 100%;
+                object-fit: contain;
+            }
+        </style>
 </head>
 <body>
     <div id="header"></div>
-    <!-- Añadir el contenido aquí -->
+    <section class="section">
+    <div class="container">
+        <h1 class="title">FASHION PET BRAND DESIGN</h1>
+        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+    </div>
+        <div class="img-container logo">
+            <img src="images/FW-LOGO.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img src="images/FW-BOX MOCKUP.jpg" alt="">
+        </div>
+        <div class="row">
+            <div class="img-container">
+                <img src="images/FW-RED.png" alt="">
+            </div>
+            <div class="img-container">
+                <img src="images/FW-ORANGE.png" alt="">
+            </div>
+            <div class="img-container">
+                <img src="images/FW-LABELS.png" alt="">
+            </div>
+            <div class="img-container">
+                <img src="images/FW.DOG.jpg" alt="">
+            </div>
+        </div>
+    </section>
     <div id="footer"></div>
 </body>
 </html>
