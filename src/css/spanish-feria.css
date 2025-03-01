@@ -1,0 +1,41 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    gap: 24px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.grid .one{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.grid .two{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.grid .three{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid .four{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid .five{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 5px;
+}
