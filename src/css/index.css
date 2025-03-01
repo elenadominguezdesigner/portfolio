@@ -1,6 +1,6 @@
 /* Estilos generales para la hero section */
 .hero-section {
-    background-image: url('/images/hero1.jpg'); /* Imagen de fondo */
+    background-image: url('/images/index/hero1.jpg'); /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -12,6 +12,7 @@
 
 /* Estilos generales para h1, h2 y h3 */
 .hero-section h1, .hero-section h2, .hero-section h3 {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
     font-weight: bold;
@@ -91,6 +92,7 @@
 
 /* Botón con borde blanco y efecto hover */
 .btn {
+    display: inline-block;
     background-color: rgba(255, 10, 118, 0.15); /* Rosa sólido con 90% de opacidad */
     color: white; /* Letras en blanco */
     border: 3px solid white; /* Borde blanco */

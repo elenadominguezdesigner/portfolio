@@ -9,6 +9,9 @@
 .main {
     background-color: #FF0A76;
 }
+.nav-left {
+    padding-left: 0;
+}
 
 .navbar .logo {
     width: auto; /* Ajusta al tamaño que necesites */
