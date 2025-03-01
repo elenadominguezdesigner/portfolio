@@ -1,0 +1,58 @@
+.footer {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top,  
+        rgba(255, 10, 118, 0.6) 5%,  /* Rosa al inicio */
+        rgba(255, 100, 150, 0.5) 30%,  /* Rosa intermedio más suave */
+        rgba(224, 175, 195, 0.3) 60%,  /* Rosa más claro */
+        rgba(205, 255, 216, 0.3) 80%,  /* Verde entrando más sutil */
+        rgba(230, 255, 240, 0.4) 90%,  /* Verde muy suave */
+        rgba(255, 255, 255, 0.8) 100%); /* Blanco suave al final */
+    color: #FF0A76; /* Color oscuro para mejor legibilidad */
+    text-align: center;
+    padding: 40px 40px; /* Más espacio en los laterales */
+}
+
+
+.social-icons2 {
+    margin-top: 0px;
+    margin-bottom: 20px; /* Aumentar espacio entre los íconos y el texto */
+    transition: color 0.4s ease, text-shadow 0.4s ease; /* Transición suave */
+    font-size: 30px; /* Ajusta el tamaño de los íconos */
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra los íconos */
+    gap: 15px; /* Espacio entre los íconos */
+}
+
+.social-icons2 a {
+    text-decoration: none;
+    color: #FF0A76; /* Color rosa */
+    font-weight: bold;
+    font-size: 20px; /* Aumenta el tamaño del ícono */
+    transition: color 0.5s ease, transform 0.3s ease; /* Suaviza cambios */
+    display: inline-block; /* Evita problemas con transform */
+}
+
+.social-icons2 a:hover {
+    color: #FF7BAC; /* Color al pasar el mouse */
+    transform: scale(1.2); /* Hace el ícono más grande en hover */
+}
+
+.creators {
+    margin-bottom: 5px; /* Aumenta el espacio entre el texto de los creadores y el copyright */
+}
+
+.creators p {
+    margin: 0; /* Elimina margen predeterminado */
+}
+
+.year p {
+    margin: 0; /* Elimina margen predeterminado */
+    color:  #FF0A76;
+}
+
+/* Asegura que el texto se mantenga legible en pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 14px; /* Reducir tamaño de fuente en pantallas más pequeñas */
+    }
+}

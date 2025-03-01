@@ -1,0 +1,21 @@
+---
+layout: default.njk
+---
+
+{{ content | safe }}
+
+<section class="image-grid">
+    {% for page in collections.pages %}
+        {% if not page.data.menu %}
+            <div class="image-container">
+                <a href="{{ page.url }}">
+                    <img src="{{ page.data.mainImage }}" alt="{{ page.data.title }}">
+                    <div class="overlay">
+                        <h3>{{ page.data.subtitle }}</h3>
+                        <p class="date">{{ page.data.projectDate }}</p>
+                    </div>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>

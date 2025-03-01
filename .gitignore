@@ -1,0 +1,21 @@
+# Eleventy build output
+/public/
+
+# Node.js dependencies
+/node_modules/
+
+# npm logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS files (Windows and macOS)
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# IDE and editor settings
+.vscode/          # VSCode settings and workspace configuration
+
+# Temporary files created by the editor
+*.swp
+*.swo

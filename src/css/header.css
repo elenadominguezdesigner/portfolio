@@ -1,0 +1,60 @@
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 30px;
+}
+.main {
+    background-color: #FF0A76;
+}
+
+.navbar .logo {
+    width: auto; /* Ajusta al tamaño que necesites */
+    height: 60px; /* Ajusta el tamaño de la imagen */
+    transition: opacity 0.4s ease; /* Transición suave para el cambio */
+}
+
+.navbar .logo:hover {
+    background-image: url('images/elena-dominguez-texto-hover.png');
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #FF0A76;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+    transition: color 0.5s ease, transform 0.3s ease;
+    display: inline-block; /* Evita problemas con transform */
+}
+
+.navbar ul li a:hover {
+    color:  #FF7BAC; /* El color al pasar el ratón */
+    transform: scale(1.1); /* Hace el ícono más grande en hover */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
