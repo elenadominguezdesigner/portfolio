@@ -60,4 +60,10 @@
         gap: 10px;
         margin-top: 10px;
     }
+    .navbar .nav-left {
+        display: none;
+    }
+    .navbar .nav-right {
+        display: none;
+    }
 }
