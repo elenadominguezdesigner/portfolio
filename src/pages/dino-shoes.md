@@ -4,5 +4,25 @@ subtitle: DINOSHOES-Collage and Illustration Design
 projectDate: "2024"
 mainImage: "/images/index/image15.jpg"
 styles: "dino-shoes.css"
+gridImages:
+  - /images/index/image15.jpg
+  - /images/index/image15.jpg
+  - /images/index/image15.jpg
+  - /images/index/image15.jpg
+  - /images/index/image15.jpg
+  - /images/index/image15.jpg
+  - /images/index/image15.jpg
 ---
-Página de proyecto DINOSHOES-Collage and Illustration Design
+<section class="section">
+    <div class="details-container">
+        <h1 class="title">DINOSHOES-Collage and Illustration<br>Design</h1>
+        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+    </div>
+    <div class="grid container">
+        {% for image in gridImages %}
+            <div class="image-container">
+                <img class="img" src="{{ image }}" alt="">
+            </div>
+        {% endfor %}
+    </div>
+</section>
