@@ -8,6 +8,9 @@ eleventyConfig.addWatchTarget("./src/css/");
         dir: {
             input: "src",
             output: "public"
+        },
+        serverOptions: {
+            showAllHosts: true
         }
     };
 };
