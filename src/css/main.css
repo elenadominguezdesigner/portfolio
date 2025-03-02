@@ -15,4 +15,4 @@
 /* Temporary fix from https://github.com/11ty/eleventy/issues/457 */
 p:empty {
     display: none;
-  }
+}
