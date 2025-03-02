@@ -246,4 +246,7 @@
     .image-grid {
         grid-template-columns: 1fr;
     }
+    .hero-section h1, .hero-section h2, .hero-section h3 {
+        font-size: 24px;
+    }
 }
