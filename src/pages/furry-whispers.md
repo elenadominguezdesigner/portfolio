@@ -10,13 +10,14 @@ styles: "furry-whispers.css"
         <h1 class="title">FASHION PET BRAND<br>DESIGN</h1>
         <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
     </div>
+    <div class="grid container">
         <div class="img-container logo">
             <img src="/images/furry-whispers/FW-LOGO.jpg" alt="">
         </div>
         <div class="img-container">
             <img src="/images/furry-whispers/FW-BOX MOCKUP.jpg" alt="">
         </div>
-        <div class="row">
+        <div class="grid one">
             <div class="img-container">
                 <img src="/images/furry-whispers/FW-RED.png" alt="">
             </div>
@@ -30,4 +31,5 @@ styles: "furry-whispers.css"
                 <img src="/images/furry-whispers/FW.DOG.jpg" alt="">
             </div>
         </div>
+    </div>
 </section>
