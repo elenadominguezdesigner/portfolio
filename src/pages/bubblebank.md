@@ -14,7 +14,7 @@ gridImages:
 <section class="section">
     <div class="details-container">
         <h1 class="title">BUBBLEBANK-Interior Design</h1>
-        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+        <p class="description">Bubble Bank for GEN Z.This bank offers maximum security to its clients, as well as personalized advice for any type of doubt and management.“Feel protected, stay in your bubble”</p>
     </div>
     <div class="grid container">
         <div class="image-container">

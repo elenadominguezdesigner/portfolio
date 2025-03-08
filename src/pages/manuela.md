@@ -8,7 +8,7 @@ styles: "manuela.css"
 <section class="manuela">
     <div class="details">
         <h1 class="title">MANUELA'S CHOCOLATE-Brand Design Logo</h1>
-        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+        <p class="description">Logo creation for Chocolates Manuela a traditional chocolate shop. Located in Astorga, it seeks to convey a familiar and close feeling with clients. For this reason, the name "Manuela" has a familiar and traditional tone, evoking a grandmother who makes chocolates. The aim is to transmit that history, warmth and craftsmanship. Spreading the values ​​of commitment and trust, which arise from the association of a personal name with a commitment and a direct connection with the local community. </p>
     </div>
         <div class="images-container">
             <div class="img-container white">

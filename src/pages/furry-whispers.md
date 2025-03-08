@@ -8,7 +8,8 @@ styles: "furry-whispers.css"
 <section class="section">
     <div class="container">
         <h1 class="title">FASHION PET BRAND<br>DESIGN</h1>
-        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+        <p class="description">Creation of graphic identity for Furry Whispers, an emerging pet clothing brand.
+Fun, eye-catching and friendly are the aspects that make this wonderful brand stand out! 🐶 😻</p>
     </div>
     <div class="grid container">
         <div class="img-container logo">
