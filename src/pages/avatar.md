@@ -1,5 +1,6 @@
 ---
 title: AVATAR
+order: 16
 subtitle: AVATAR THE WAY OF WATER-Graphic Design
 projectDate: "2021"
 mainImage: "/images/index/image17.jpg"

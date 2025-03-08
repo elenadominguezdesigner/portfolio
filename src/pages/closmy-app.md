@@ -1,5 +1,6 @@
 ---
 title: CLOSMY-App
+order: 4
 subtitle: CLOSMY-App Design
 projectDate: "2023"
 mainImage: "/images/index/image4.png"

@@ -5,7 +5,7 @@ layout: default.njk
 {{ content | safe }}
 
 <section class="image-grid">
-    {% for page in collections.pages %}
+    {% for page in collections.orderedPages %}
         {% if not page.data.menu %}
             <div class="image-container">
                 <a href="{{ page.url }}">

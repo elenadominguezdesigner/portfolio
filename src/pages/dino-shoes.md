@@ -1,5 +1,6 @@
 ---
 title: DINOSHOES-Collage and Illustration Design
+order: 14
 subtitle: DINOSHOES-Collage and Illustration Design
 projectDate: "2024"
 mainImage: "/images/index/image15.jpg"

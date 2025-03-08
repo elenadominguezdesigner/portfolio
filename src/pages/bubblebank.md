@@ -1,5 +1,6 @@
 ---
 title: BUBBLEBANK
+order: 9
 subtitle: BUBBLEBANK-Interior Design
 projectDate: "2021"
 mainImage: "/images/index/image10.png"

@@ -1,5 +1,6 @@
 ---
 title: DeFive-Interior
+order: 6
 subtitle: DeFive-Interior Design
 projectDate: "2023"
 mainImage: "/images/index/image6.jpg"

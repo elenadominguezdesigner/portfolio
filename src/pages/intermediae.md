@@ -1,5 +1,6 @@
 ---
 title: INTERMEDIAE-Fashion
+order: 10
 subtitle: INTERMEDIAE-Fashion Design
 projectDate: "2022"
 mainImage: "/images/index/image11.jpg"

@@ -1,5 +1,6 @@
 ---
 title: 3INA COSMETICS-Summer
+order: 17
 subtitle: 3INA COSMETICS-Summer Event Graphic Design
 projectDate: "2023"
 mainImage: "/images/index/image8.jpg"

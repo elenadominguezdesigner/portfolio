@@ -1,5 +1,6 @@
 ---
-title: CLOSMY-App
+title: Defive-App Design
+order: 7
 subtitle: Defive-App Design
 projectDate: "2023"
 mainImage: "/images/index/image4.png"
