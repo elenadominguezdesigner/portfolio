@@ -1,12 +1,5 @@
 .footer {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to top,  
-        rgba(255, 10, 118, 0.6) 5%,  /* Rosa al inicio */
-        rgba(255, 100, 150, 0.5) 30%,  /* Rosa intermedio más suave */
-        rgba(224, 175, 195, 0.3) 60%,  /* Rosa más claro */
-        rgba(205, 255, 216, 0.3) 80%,  /* Verde entrando más sutil */
-        rgba(230, 255, 240, 0.4) 90%,  /* Verde muy suave */
-        rgba(255, 255, 255, 0.8) 100%); /* Blanco suave al final */
     color: #FF0A76; /* Color oscuro para mejor legibilidad */
     text-align: center;
     padding: 40px 40px; /* Más espacio en los laterales */
