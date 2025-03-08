@@ -13,7 +13,7 @@ styles: "insect.css"
     </div>
         <div class="images-container">
             <div class="img-container">
-                <img src="/images/insect/IM-ESCARABAJO TEXTIL PRINT MOCKUP.png" alt="">
+                <img src="/images/insect/IM-ESCARABAJO TEXTIL PRINT MOCKUP.jpg" alt="">
             </div>
             <div class="img-container">
                 <img src="/images/insect/IM- ESCARABAJO PATTERN 2.png" alt="">

@@ -6,9 +6,21 @@
     text-align: center;
 }
 .description {
-    margin: 20px 0;
+    margin: 10px 0;
+    line-height: 0.7; /* Ajusta la altura de línea para que los párrafos estén más juntos */
+    font-size: 14px; /* Reduce el tamaño de la letra */
+    color: #A0A0A0; /* Un gris suave */
 }
 
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+    .description {
+        font-size: 12px; /* Reduce el tamaño en móviles */
+        line-height: 1.4; /* Aumenta la separación */
+        margin-bottom: 12px; /* Más espacio entre párrafos */
+    }
+}
+  
 .img-container {
     text-align: center;
 }
@@ -20,6 +32,7 @@
 }
 
 .section .logo {
+    margin-top: 20px;
     padding: 0 15%;
 }
 
@@ -30,5 +43,43 @@
     grid-template-columns: 1fr;
 }
 .grid .one {
-    grid-template-columns: 5fr 5fr 1fr 3.5fr
+    grid-template-columns: 5fr 5fr 5fr
+    
+}
+
+.img-container img[src$="FW-BOX MOCKUP.jpg"] {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-container img[src$="FW.DOG.jpg"] {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-container img[src$="FW-LABELS.jpg"] {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Asegura que las imágenes en el grid de tres columnas mantengan el formato adecuado */
+.grid .one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Asegura tres columnas de igual tamaño */
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Efecto hover solo en las imágenes dentro del grid .one */
+.grid .one img {
+    width: 100%; /* Las imágenes dentro del grid ocupan todo el espacio disponible */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.grid .one img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
 }

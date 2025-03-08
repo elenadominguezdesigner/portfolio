@@ -13,7 +13,7 @@ styles: "manuela.css"
     </div>
         <div class="images-container">
             <div class="img-container white">
-                <img src="/images/manuela/CM-LOGO.png" alt="">
+                <img src="/images/manuela/CM-LOGO.jpg" alt="">
             </div>
             <div class="img-container">
                 <img src="/images/manuela/CM-BEIGE.jpg" alt="">

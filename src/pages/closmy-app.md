@@ -13,6 +13,7 @@ styles: "closmy.css"
         CLOSMY is an interface that allows you to organize all clothes of your closet and know what things you could wear. In addition, thanks to its personal assistant, you can quickly and easily measure yourself to create your own avatar and try on clothes without having physically put them on, either by scanning the labels of the garments or selecting the garment directly from its website. You will automatically see how that garment would fit you. This will help you when creating outfits and having a wardrobe that you are happy with. And remember, everything looks good on you!</p>
         <div class="video"></div>
     </div>
+    
     <div class="grid-container">
         <div class="image-container">
             <img class="img" src="/images/closmy/C-GOOGLE PLAY.png" alt="">
