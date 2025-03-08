@@ -169,6 +169,8 @@
 /* Estilos para el grid de imágenes */
 .image-grid {
     display: grid;
+    width: 1260px;
+    margin: 0 auto;
     grid-template-columns: repeat(3, 1fr); /* Siempre 3 columnas */
     gap: 0px; /* Sin espacio entre columnas */
     padding: 60px;
