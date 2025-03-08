@@ -43,7 +43,7 @@ gridImagesTwo:
 <section class="section">
     <div class="details-container">
         <h1 class="title">DeFive-Interior Design</h1>
-        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+        <p class="description">"Next Generation" is a project for the creation of a design university that will open its doors in 2030.DeFive is the school in which the five branches of design will be taught : graphic, fashion, object, space and 3D. This school is designed for the students of the future, who wants to reconcile their student life with their personal life, as well as to obtain sufficient knowledge to face the world of work.</p>
     </div>
     <div class="grid container">
         <div class="grid one">

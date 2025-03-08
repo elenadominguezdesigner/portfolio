@@ -8,7 +8,7 @@ styles: "nestea-honey.css"
 <section class="section">
     <div class="details-container">
         <h1 class="title">NESTEA HONEY-Packaging<br>Redesign</h1>
-        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+        <p class="description">New Packaging design for Nestea "Honey & Lemon"</p>
     </div>
     <div class="grid container">
         <div class="image-container">

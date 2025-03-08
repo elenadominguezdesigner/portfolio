@@ -15,7 +15,7 @@ gridImages:
 <section class="section">
     <div class="details-container">
         <h1 class="title">BOOK DAY KO- Graphic Design</h1>
-        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+        <p class="description">Spanish book day merchandaising for book brand "Ko books"</p>
     </div>
     <div class="grid container">
         <div class="image-container">

@@ -8,7 +8,7 @@ styles: "spanish-feria.css"
 <section class="section">
     <div class="details-container">
         <h1 class="title">SPANISH FERIA HÁBITAT<br>21-Graphic Design</h1>
-        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+        <p class="description">Hábitat Fair is an exhibition in which new trends in furniture design and luminary of numerous countries are shown, in order to advertise emerging designers.The Valencia Habitat Fair was held in Valencia, at the Congress Palace.</p>
     </div>
     <div class="grid">
         <div class="image-container">

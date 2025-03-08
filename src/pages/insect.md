@@ -8,7 +8,7 @@ styles: "insect.css"
 <section class="insect">
     <div class="details">
         <h1 class="title">TEXTIL PRINT DESIGN</h1>
-        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia nesciunt iure quae sint ducimus, iste dignissimos ab tenetur, nam voluptatibus aut minus non quaerat minima! Quidem rem earum culpa?</p>
+        <p class="description">Illustration made by hand in watercolour and pencil, post-processed with Photoshop</p>
     </div>
         <div class="images-container">
             <div class="img-container">
