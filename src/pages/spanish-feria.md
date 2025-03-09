@@ -17,42 +17,42 @@ styles: "spanish-feria.css"
         </div>
         <div class="grid one">
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR 1.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR 1.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR LUMINARIA.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR LUMINARIA.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR MOBILIARIO.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR MOBILIARIO.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR 1.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR 1.jpg" alt="">
             </div>
         </div>
         <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-PHOTOCALL ENTERO.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-PHOTOCALL ENTERO.jpg" alt="">
         </div>
         <div class="grid two">
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-ACTIVIDADES.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-ACTIVIDADES.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-CONFERENCIAS.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-CONFERENCIAS.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-EXPOSICIÓN.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-EXPOSICIÓN.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-INFORMACIÓN.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-INFORMACIÓN.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-PHOTOCALL.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-PHOTOCALL.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-RESTAURANTE.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-RESTAURANTE.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-TALLERES.png" alt="">
+                <img class="img" src="/images/spanish-feria/FH-TALLERES.jpg" alt="">
             </div>
         </div>
         <div class="grid three">
