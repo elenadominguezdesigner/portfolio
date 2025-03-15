@@ -1,6 +1,6 @@
 ---
 title: VIVENTIUM-Fashion
-order: 8
+order: 9
 subtitle: VIVENTIUM-Fashion SS23 Collection
 projectDate: "2023"
 mainImage: "/images/index/image9.jpg"

@@ -57,7 +57,7 @@ styles: "spanish-feria.css"
         </div>
         <div class="grid three">
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-COMBO.jpg" alt="">
+                <img class="img modal-trigger" src="/images/spanish-feria/FH-COMBO.jpg" alt="">
             </div>
             <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-COMBO DETRÁS.jpg" alt="">
@@ -97,7 +97,7 @@ styles: "spanish-feria.css"
                 <img class="img" src="/images/spanish-feria/FH-Recinto Matadero.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-SEÑALÉTICA SUELO DIRECCIÓN.jpg" alt="">
+                <img class="img modal-trigger" src="/images/spanish-feria/FH-SEÑALÉTICA SUELO DIRECCIÓN.jpg" alt="">
             </div>
         </div>
     </div>
