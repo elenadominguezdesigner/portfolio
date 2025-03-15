@@ -17,3 +17,51 @@
 p:empty {
     display: none;
 }
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    gap: 24px;
+}
+
+.description {
+    margin: 10px 0;
+    line-height: 1.4;
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: grid;    
+}
+
+.grid.container {
+    grid-template-columns: 1fr;
+}
+
+/* Scale images when hover */
+.scale-hover {
+    transition: transform 0.3s ease
+}
+
+.scale-hover:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .description {
+        font-size: 12px; /* Reduce el tamaño en móviles */
+        line-height: 1.4; /* Aumenta la separación */
+        margin-bottom: 12px; /* Más espacio entre párrafos */
+    }
+}
