@@ -7,5 +7,10 @@
             <main>{{ content | safe }}</main>
             {% include "footer.njk" %}
         </div>
+        <div id="imageModal" class="modal" onclick="closeModal()">
+            <span class="close">&times;</span>
+            <img id="modalImg" class="modal-content">
+        </div>
+        <script src="\scripts\modal.js" defer></script>
     </body>
 </html>

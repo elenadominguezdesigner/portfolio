@@ -1,7 +1,8 @@
 module.exports = function (eleventyConfig) {
 eleventyConfig.addPassthroughCopy("./src/images/");
-
 eleventyConfig.addPassthroughCopy("./src/css/");
+eleventyConfig.addPassthroughCopy("./src/scripts/");
+
 eleventyConfig.addWatchTarget("./src/css/");
 
 eleventyConfig.addCollection("orderedPages", function(collectionApi) {
