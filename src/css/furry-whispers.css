@@ -1,50 +1,9 @@
-.section {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
-.description {
-    margin: 10px 0;
-    line-height: 0.7; /* Ajusta la altura de línea para que los párrafos estén más juntos */
-    font-size: 14px; /* Reduce el tamaño de la letra */
-    color: #A0A0A0; /* Un gris suave */
-}
-
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 600px) {
-    .description {
-        font-size: 12px; /* Reduce el tamaño en móviles */
-        line-height: 1.4; /* Aumenta la separación */
-        margin-bottom: 12px; /* Más espacio entre párrafos */
-    }
-}
-  
-.img-container {
-    text-align: center;
-}
-
-.img-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
 .section .logo {
     margin-top: 20px;
     padding: 0 15%;
 }
-
-.grid {
-    display: grid;    
-}
-.grid.container {
-    grid-template-columns: 1fr;
-}
 .grid .one {
-    grid-template-columns: 5fr 5fr 5fr
-    
+    grid-template-columns: 5fr 5fr 5fr    
 }
 
 .img-container img[src$="FW-BOX MOCKUP.jpg"] {
