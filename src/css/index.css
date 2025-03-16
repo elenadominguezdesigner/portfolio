@@ -114,4 +114,7 @@
     .hero-section h1 {
         font-size: 24px;
     }
+    .hero-section {
+        margin-top: 108px;
+    }
 }
