@@ -27,3 +27,9 @@
 .modal-trigger {
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .close {
+        top: 128px;
+    }
+}
