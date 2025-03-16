@@ -63,7 +63,7 @@
         width: 100vw;
         flex-direction: column;
         text-align: center;
-        z-index: 1000;
+        z-index: 500;
     }
     .navbar .logo {
         width: 100%;
