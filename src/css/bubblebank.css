@@ -3,18 +3,18 @@
     height: 100%;
     object-fit: contain;
 }
-.video {
-    width: 640px;
-    height: 300px;
-    background-color: cornsilk;
-    margin: 0 auto;
-}
+
 .grid {
-    display: grid;    
+    display: grid;
 }
+
 .grid.container {
     grid-template-columns: 1fr;
+    gap: 20px;  
+    margin-top: 15px;  
 }
-.grid .one {
-    grid-template-columns: 1fr;
+
+.grid.container .image-container:first-child .img {
+    margin-top: -40px;  
+    transform: scale(0.8); /* Mantiene la imagen 1 más pequeña */
 }

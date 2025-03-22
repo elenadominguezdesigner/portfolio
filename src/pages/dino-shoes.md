@@ -3,7 +3,7 @@ title: DINOSHOES-Collage and Illustration Design
 order: 15
 subtitle: DINOSHOES-Collage and Illustration Design
 projectDate: "2024"
-mainImage: "/images/dinoshoes/dino4.jpg"
+mainImage: "/images/index/image15.jpg"
 styles: "dino-shoes.css"
 gridImages:
   - /images/dinoshoes/dino1.jpg
