@@ -113,6 +113,7 @@ gridImagesTwo:
         </div>
             <div class="image-container">
             <img class="img" src="/images/defive/l2.jpg" alt="">
+        </div>
     </div>
     <div class="grid container">
         <div class="image-container">
