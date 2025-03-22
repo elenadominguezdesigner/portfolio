@@ -38,7 +38,7 @@ menu: true
 
             <!-- "Tools of the Trade" al final -->
             <h3>Tools of the Trade</h3>
-            <p>I work with a range of tools that help me bring my creative visions to life, including <strong>Illustrator</strong>, <strong>Photoshop</strong>, <strong>AutoCAD</strong>, <strong>Rhino3D</strong>, and AI-powered tools 🤖 like <strong>ChatGPT</strong> and <strong>Microsoft Designer</strong>. I am always striving to stay ahead of trends and continually improve my skills, ensuring that every project I take on is innovative and forward-thinking.</p>
+            <p>I work with a range of tools that help me bring my creative visions to life, including <strong>Illustrator</strong>, <strong>Photoshop</strong>, <strong>AutoCAD</strong>, <strong>Procreate</strong>, <strong>Rhino3D</strong> and AI-powered tools 🤖 like <strong>ChatGPT</strong> and <strong>Microsoft Designer</strong>. I am always striving to stay ahead of trends and continually improve my skills, ensuring that every project I take on is innovative and forward-thinking.</p>
 
             <p>If you share my passion for design or have a project in mind, feel free to reach out. I’m always open to new opportunities and collaborations! 💬</p>
         </div>
