@@ -1,23 +1,51 @@
 .details {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    height: 440px;
     gap: 16px;
-    margin: 20px 0;
+    margin: 20px;
+    margin-bottom: 20px;
+    height: auto;
 }
+
 .video {
-    background-color: cornsilk;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 1200px; /* Ajusta según el diseño de tu web */
+    margin: auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.video iframe {
+    width: 100%;
+    height: 537px; 
+}
+
 .description {
-    padding: 100px;
+    padding: 20px; /* Ajusta el padding para no ocupar tanto espacio */
 }
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 3fr);
     gap: 16px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px; /* Asegura que el grid no toque el footer */
 }
+
 .img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: contain; /* Ajusta la imagen sin deformarla */
+}
+
+/* Si el footer se pega al final, puedes usar flexbox en el body para forzar el footer a estar al final */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.section {
+    flex: 1; /* Esto hace que la sección ocupe todo el espacio disponible antes del footer */
 }
