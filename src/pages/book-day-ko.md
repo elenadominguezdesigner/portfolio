@@ -3,15 +3,16 @@ title: BOOK DAY KO
 order: 16
 subtitle: BOOK DAY KO- Graphic Design
 projectDate: "2020"
-mainImage: "/images/index/image16.png"
+mainImage: "/images/bookdayko/ko1.jpg"
 styles: "book-day-ko.css"
 gridImages:
-  - /images/index/image16.png
-  - /images/index/image16.png
-  - /images/index/image16.png
-  - /images/index/image16.png
-  - /images/index/image16.png
-  - /images/index/image16.png
+  - /images/bookdayko/ko1.jpg
+  - /images/bookdayko/ko2.jpg
+  - /images/bookdayko/ko3.jpg
+  - /images/bookdayko/ko4.jpg
+  - /images/bookdayko/ko5.jpg
+  - /images/bookdayko/ko6.jpg
+  - /images/bookdayko/ko7.jpg
 ---
 <section class="section">
     <div class="details-container">
@@ -20,14 +21,27 @@ gridImages:
     </div>
     <div class="grid container">
         <div class="image-container">
-            <img class="img" src="/images/index/image16.png" alt="">
+            <img class="img" src="/images/bookdayko/ko1.jpg" alt="">
         </div>
         <div class="grid one">
-            {% for image in gridImages %}
                 <div class="image-container">
-                    <img class="img" src="{{ image }}" alt="">
+                    <img class="img" src="/images/bookdayko/ko2.jpg" alt="">
                 </div>
-            {% endfor %}
+                <div class="image-container">
+                    <img class="img" src="/images/bookdayko/ko3.jpg" alt="">
+                </div>
+                <div class="image-container">
+                    <img class="img" src="/images/bookdayko/ko4.jpg" alt="">
+                </div>
+                <div class="image-container">
+                    <img class="img" src="/images/bookdayko/ko5.jpg" alt="">
+                </div>
+                <div class="image-container">
+                    <img class="img" src="/images/bookdayko/ko6.jpg" alt="">
+                </div>
+                <div class="image-container">
+                    <img class="img" src="/images/bookdayko/ko7.jpg" alt="">
+                </div>
         </div>
     </div>
 </section>
