@@ -3,7 +3,7 @@ title: Insect
 order: 3
 subtitle: INSECT MADNESS-Textile Print Design
 projectDate: "2025"
-mainImage: "/images/index/image3.png"
+mainImage: "/images/index/image3.jpg"
 styles: "insect.css"
 ---
 <section class="insect">

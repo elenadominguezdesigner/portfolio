@@ -3,7 +3,7 @@ title: BUBBLEBANK
 order: 10
 subtitle: BUBBLEBANK-Interior Design
 projectDate: "2021"
-mainImage: "/images/index/image10.png"
+mainImage: "/images/index/image10.jpg"
 styles: "bubblebank.css"
 gridImages:
   - /images/bubblebank/bb1.jpg

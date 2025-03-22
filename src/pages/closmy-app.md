@@ -3,7 +3,7 @@ title: CLOSMY-App
 order: 4
 subtitle: CLOSMY-App Design
 projectDate: "2023"
-mainImage: "/images/index/image4.png"
+mainImage: "/images/index/image4.jpg"
 styles: "closmy.css"
 ---
 <section class="section">

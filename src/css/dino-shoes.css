@@ -7,4 +7,22 @@
 }
 .grid.container {
     grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 10px; /* Reduce el espacio debajo del grid container */
+}
+.grid.huge {
+    display: flex;  /* Cambia el grid a flexbox */
+    flex-direction: column;  /* Organiza los elementos en columna */
+    align-items: center;  /* Centra las imágenes si es necesario */
+    gap: 20px;  /* Ajusta el espacio entre imágenes */
+}
+
+.grid.huge .image-container {
+    width: 100%; /* Asegura que las imágenes ocupen el ancho disponible */
+    max-width: 600px; /* Ajusta según el diseño de tu web */
+}
+
+.grid.huge .image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }

@@ -3,7 +3,7 @@ title: NESTEA HONEY
 order: 12
 subtitle: NESTEA HONEY-Packaging Redesign
 projectDate: "2020"
-mainImage: "/images/index/image12.png"
+mainImage: "/images/index/image12.jpg"
 styles: "nestea-honey.css"
 ---
 <section class="section">
