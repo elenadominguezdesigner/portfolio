@@ -34,31 +34,31 @@ gridImages:
         <p class="description">MODELATING IN SKETCHUP</p>
         <div class="grid one">
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc2.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc2.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc3.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc3.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc4.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc4.jpg" alt="">
                 </div>
                 <div class="image-container">
-                     <img class="img" src="/images/ciclingcafe/cc5.jpg" alt="">
+                     <img class="img modal-trigger" src="/images/ciclingcafe/cc5.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc6.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc6.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc7.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc7.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc8.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc8.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc9.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc9.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc10.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc10.jpg" alt="">
                 </div>
         </div>
     </div>
