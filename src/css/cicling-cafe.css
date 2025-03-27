@@ -39,11 +39,6 @@
     transition: transform 0.3s ease;  /* Suaviza la transición */
 }
 
-/* Excluir la primera imagen (cc1.jpg) del efecto hover */
-.grid.container .image-container:first-child img:hover {
-    transform: none;  /* No agrandar la primera imagen */
-}
-
 /* Transición suave para todas las imágenes */
 .grid .image-container img {
     transition: transform 0.3s ease;

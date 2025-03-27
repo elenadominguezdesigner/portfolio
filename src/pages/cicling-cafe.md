@@ -27,38 +27,38 @@ gridImages:
         <p class="description">Remodeling of the Hexagons Pavilion in Madrid to create a cycling cafe.</p>
         <p class="description">Cafe designed for cycling lovers. Here, expert and amateur cyclists stop by to have a coffee or a snack either before or after their route. It is a place where cyclists share their hobbies and create strong bonds.</p>
     </div>
+    <div class="image-container">
+        <img class="img" src="/images/ciclingcafe/cc1.jpg" alt="">
+    </div>
     <div class="grid container">
-        <div class="image-container">
-            <img class="img" src="/images/ciclingcafe/cc1.jpg" alt="">
-        </div>
         <p class="description">MODELATING IN SKETCHUP</p>
         <div class="grid one">
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc2.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc2.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc3.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc3.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc4.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc4.jpg" alt="">
                 </div>
                 <div class="image-container">
-                     <img class="img" src="/images/ciclingcafe/cc5.jpg" alt="">
+                     <img class="img modal-trigger" src="/images/ciclingcafe/cc5.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc6.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc6.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc7.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc7.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc8.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc8.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc9.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc9.jpg" alt="">
                 </div>
                 <div class="image-container">
-                    <img class="img" src="/images/ciclingcafe/cc10.jpg" alt="">
+                    <img class="img modal-trigger" src="/images/ciclingcafe/cc10.jpg" alt="">
                 </div>
         </div>
     </div>

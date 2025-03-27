@@ -5,7 +5,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(230, 0, 126, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     justify-content: center;
     align-items: center;
     z-index: 1000;
@@ -16,15 +16,31 @@
     max-height: 90%;
 }
 
-.close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 60px;
-    color: white;
+.modal-trigger {
     cursor: pointer;
 }
 
-.modal-trigger {
+.close, .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: white;
     cursor: pointer;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.close {    
+    top: 40px;
+    right: 20px;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
 }
