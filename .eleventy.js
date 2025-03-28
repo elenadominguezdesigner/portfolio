@@ -12,7 +12,7 @@ eleventyConfig.addCollection("orderedPages", function(collectionApi) {
     return {
         dir: {
             input: "src",
-            output: "public"
+            output: "docs"
         },
         serverOptions: {
             showAllHosts: true
