@@ -25,6 +25,13 @@
     display: inline-block; /* Evita problemas con transform */
 }
 
+.icon {
+    width: 19px;
+    height: 19px;
+    margin-top: 3px;
+    fill: #FF0A76;
+}
+
 .social-icons2 a:hover {
     color: #FF7BAC; /* Color al pasar el mouse */
     transform: scale(1.2); /* Hace el ícono más grande en hover */

@@ -20,14 +20,16 @@
     transition: opacity 0.4s ease; /* Transición suave para el cambio */
 }
 
-/* .navbar .logo:hover {
-    background-image: url('images/elena-dominguez-texto-hover.png');
-} */
+.icon {
+    width: 19px;
+    height: 19px;
+    margin-top: 3px;
+    fill: #FF0A76;
+}
 
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 20px;
     align-items: center;
 }
 
