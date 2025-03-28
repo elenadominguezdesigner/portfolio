@@ -24,40 +24,40 @@ styles: "closmy.css"
         </div>
     </div>
     <div class="grid container two">
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-GOOGLE PLAY.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-MOCKUP MOVIL ICONOS.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-PANTALLA INICIO DE LA APLICAICÓN.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-REGISTRO.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-ALERTA CLOMY.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-ALERTA CLOMY 2.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-ALERTA ERROR CLOMY.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-PANTALLA PRINCIPAL AVATAR 2.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-WIRE1-80.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-WIRE1-80.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-WIRE3-80.jpg" alt="">
         </div>
-        <div class="image-container">
+        <div class="image-container scale-hover">
             <img class="img" src="/images/closmy/C-WF3.jpg" alt="">
         </div>
     </div>
