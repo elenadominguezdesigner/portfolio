@@ -41,8 +41,10 @@
     margin-bottom: 5px; /* Aumenta el espacio entre el texto de los creadores y el copyright */
 }
 
-.creators p {
+.creators p a{
     margin: 0; /* Elimina margen predeterminado */
+    color: #FF0A76;
+    text-decoration: none;
 }
 
 .year p {
