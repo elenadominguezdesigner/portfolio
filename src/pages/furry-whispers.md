@@ -21,7 +21,7 @@ styles: "furry-whispers.css"
         </div>
         <div class="grid one">
             <div class="img-container">
-                <img src="/images/furry-whispers/FW-RED.png" alt="" class="img modal-trigger">
+                <img src="/images/furry-whispers/FW-RED.jpg" alt="" class="img modal-trigger">
             </div>
             <div class="img-container">
                 <img src="/images/furry-whispers/FW-ORANGE.png" alt="" class="img modal-trigger">
