@@ -124,10 +124,10 @@ gridImagesTwo:
                 <img class="img" src="/images/defive/dt3.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/defive/dt4.jpg" alt="">
+                <img class="img" src="/images/defive/dt5.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/defive/dt5.jpg" alt="">
+                <img class="img" src="/images/defive/dt4.jpg" alt="">
             </div>
             <div class="image-container">
                 <img class="img" src="/images/defive/dt7.jpg" alt="">
