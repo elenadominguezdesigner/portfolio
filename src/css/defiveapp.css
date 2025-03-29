@@ -11,6 +11,14 @@
     grid-template-columns: repeat(4, 1fr);
     margin-top: 20px;
     margin-bottom: 10px; /* Reduce el espacio debajo del grid container */
+    gap: 15px;
+}
+.grid.container .image-container .img {
+    transition: transform 0.25s ease-in-out; /* Transición suave */
+}
+
+.grid.container .image-container .img:hover {
+    transform: scale(1.1); /* Aumenta un 10% en hover */
 }
 .grid.huge {
     display: flex;  /* Cambia el grid a flexbox */

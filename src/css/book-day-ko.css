@@ -18,3 +18,10 @@
 .grid .one {
     grid-template-columns: repeat(3, 1fr);
 }
+.grid .one .image-container .img {
+    transition: transform 0.25s ease-in-out; /* Transición suave */
+}
+
+.grid .one .image-container .img:hover {
+    transform: scale(1.1); /* Aumenta un 10% en hover */
+}
