@@ -9,5 +9,4 @@ styles: "index.css"
     360º Spanish Designer<br>
     GRAPHIC / FASHION / INTERIOR / OBJECT DESIGN
     </h1>
-    <p><em>Scroll down to see my work!</em></p>
 </section>
