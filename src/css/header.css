@@ -31,6 +31,13 @@
     margin-top: 3px;
     fill: #FF0A76;
 }
+.logo {
+    transition: color 0.5s ease, transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.04);
+}
 
 .navbar ul {
     list-style: none;
