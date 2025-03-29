@@ -28,7 +28,7 @@ gridImages:
 <section class="section">
     <div class="details-container">
         <h1 class="title">VIVENTIUM-Fashion SS23<br>Collection</h1>
-        <p class="description">Viventium (from Latin, “of the living”), about human being in the metaverse</p>
+        <p class="description">Viventium (from Latin, “of the living”), about human being in the metaverse.</p>
         <p class="description">The metaverse, an infinite place, in which any type of species can be real, beings never seen before, which can be friendly or not.</p>
         <p class="description">The author of this collection, Elena Domínguez, intends through her collection to show both the good side of the metaverse and its wide possibilities as well as its negative side, anonymity, insecurity and not being able to escape from it.</p>
     </div>
@@ -43,7 +43,7 @@ gridImages:
         allowfullscreen>
     </iframe>
     </div>
-    <div class="grid">
+    <div class="grid container">
         <div class="image-container">
             <img class="img" src="/images/viventium/vm1.jpg" alt="">
         </div>
