@@ -1,12 +1,8 @@
-.insect {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+.section {
+    gap: 0;
 }
 .details {
-    margin: 20px 0;
+    margin: 20px 0 0 0;
 }
 .images-container {
     display: flex;
