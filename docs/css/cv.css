@@ -1,0 +1,173 @@
+/* Grid de dos columnas */
+.cv-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 0px;
+    padding: 40px;
+}
+
+/* Estilo de las imágenes dentro del grid */
+.cv-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* Hace que el contenedor sea cuadrado */
+    overflow: hidden;
+}
+
+.cv-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+/* Efecto hover con transparencia rosa */
+.cv-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 10, 118, 0.7); /* Rosa */
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    padding: 10px;
+}
+
+.cv-container:hover .overlay {
+    opacity: 1;
+}
+
+.cv-container .overlay h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cv-container .overlay .date {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Responsive: cambia a 1 columna en pantallas pequeñas */
+@media (max-width: 768px) {
+    .cv-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Contenedor para la imagen en formato A4 */
+.a4-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Se ajusta a la pantalla */
+    padding: 20px;
+}
+
+/* Estilo de la imagen para mantener la proporción A4 */
+.a4-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* Subcapa (modal) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor de la imagen dentro del modal */
+.modal-content-container {
+    position: relative;
+    max-width: 90%; /* Controla el tamaño máximo del contenedor */
+    max-height: 90%;
+    overflow: auto;  /* Esto permitirá el desplazamiento */
+}
+
+/* Imagen dentro del modal */
+.modal-content {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(1); /* Escala inicial */
+    transition: transform 0.1s ease; /* Transición suave para el zoom */
+}
+
+/* Botón para cerrar la imagen */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #FF0A76;
+}
+
+/* Botones de zoom */
+.zoom-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 1100;
+}
+
+.zoom-button {
+    background-color: #FF0A76; /* Rosa */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px; /* Bordes redondeados */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.zoom-button:hover {
+    background-color: #FF0A76; /* Un tono más oscuro de rosa */
+}
+h1 {
+    color: #FF0A76;
+}
+
+/* Estilos de la imagen en la vista previa */
+.a4-container img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90vh;
+    margin: 0 auto;
+}

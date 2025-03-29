@@ -1,0 +1,172 @@
+/* Estilos generales para la hero section */
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-image: url('/images/index/hero1.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 100px 40px;    
+    text-shadow: 2px 2px 5px #fc357a;
+}
+
+.hero-section h1 {
+    display: inline-block; /* El texto es tratado como bloque, pero en línea */
+    width: 100%; /* El ancho se adapta al contenido */
+    margin: 0;
+    display: inline-block; /* Mantiene el texto en línea y centrado */
+    text-align: center; /* Asegura que el texto esté centrado */
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.hero-section p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 0;
+}
+
+/* Estilos para el grid de imágenes */
+.image-grid {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr); /* Siempre 3 columnas */
+    gap: 0px; /* Sin espacio entre columnas */
+    padding: 60px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    gap: 0px;
+    padding-bottom: 75%; /* Hace que el contenedor tenga una proporción cuadrada */
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2em;
+    background-color: rgba(255, 10, 118, 0.7); /* Rosa */
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Asegura que el texto esté centrado */
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 2;
+}
+
+.image-container .overlay h3 {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0; /* Elimina margen innecesario */
+}
+
+.image-container .overlay .date {
+    font-size: 18px;
+    font-weight: 200px; /* Fuente más fina */
+    margin-top: 10px; /* Espacio entre el título y la fecha */
+}
+
+/* Responsive: cambia a 2 columnas en tablets y 1 en móviles */
+@media (max-width: 1024px) {
+    .image-grid {
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding-bottom: 0;
+    }
+    
+    .image-container {
+        border-radius: 0;
+        width: 100%;
+        height: 415px;
+        padding: 0;
+    }
+
+    .image-container a {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 12px;
+        text-decoration: none;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 280px;
+        position: relative;
+        box-shadow: 2px 2px 11px #c7c7c7;
+        border-radius: 25px;
+    }
+    
+    .image-container .overlay {
+        justify-content: flex-start;
+        position: relative;
+        height: 200px;
+        opacity: 1;
+        background-color: initial;
+        color: #FF0A76;
+        padding-bottom: 0;
+        padding-top: 22px;
+    }
+    h3 {
+        text-decoration: none;
+    }
+    .date {
+        margin: 0;
+    }
+}
+
+/* Responsive para grid de imágenes */
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+        width: 80%;
+        margin: 30px auto;
+        padding: 0;
+        gap: 2em;
+    }
+    .hero-section h1 {
+        font-size: 24px;
+    }
+    .hero-section {
+        margin-top: 108px;
+        padding: 42px;
+    }
+
+    .image-container .overlay h3, .image-container .overlay .date {
+        font-size: 16px;
+    }
+
+    .image-container .overlay h3 {
+        padding-top: 14px;
+    }
+}

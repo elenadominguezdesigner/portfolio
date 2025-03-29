@@ -1,0 +1,60 @@
+.footer {
+    font-family: 'Poppins', sans-serif;
+    color: #FF0A76; /* Color oscuro para mejor legibilidad */
+    text-align: center;
+    padding: 40px 40px; /* Más espacio en los laterales */
+}
+
+
+.social-icons2 {
+    margin-top: 0px;
+    margin-bottom: 20px; /* Aumentar espacio entre los íconos y el texto */
+    transition: color 0.4s ease, text-shadow 0.4s ease; /* Transición suave */
+    font-size: 30px; /* Ajusta el tamaño de los íconos */
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra los íconos */
+    gap: 15px; /* Espacio entre los íconos */
+}
+
+.social-icons2 a {
+    text-decoration: none;
+    color: #FF0A76; /* Color rosa */
+    font-weight: bold;
+    font-size: 20px; /* Aumenta el tamaño del ícono */
+    transition: color 0.5s ease, transform 0.3s ease; /* Suaviza cambios */
+    display: inline-block; /* Evita problemas con transform */
+}
+
+.icon {
+    width: 19px;
+    height: 19px;
+    margin-top: 3px;
+    fill: #FF0A76;
+}
+
+.social-icons2 a:hover {
+    color: #FF7BAC; /* Color al pasar el mouse */
+    transform: scale(1.2); /* Hace el ícono más grande en hover */
+}
+
+.creators {
+    margin-bottom: 5px; /* Aumenta el espacio entre el texto de los creadores y el copyright */
+}
+
+.creators p a{
+    margin: 0; /* Elimina margen predeterminado */
+    color: #FF0A76;
+    text-decoration: none;
+}
+
+.year p {
+    margin: 0; /* Elimina margen predeterminado */
+    color:  #FF0A76;
+}
+
+/* Asegura que el texto se mantenga legible en pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 14px; /* Reducir tamaño de fuente en pantallas más pequeñas */
+    }
+}

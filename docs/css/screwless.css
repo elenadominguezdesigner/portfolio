@@ -1,0 +1,23 @@
+.img {
+    width: 100%;
+    height: 100%;
+}
+.grid {
+    display: grid;    
+    gap: 30px; /* Ajusta el valor según necesites */
+}
+.grid.container {
+    grid-template-columns: 1fr;
+}
+.grid.one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas del mismo tamaño */
+    gap: 10px; /* Espaciado entre las imágenes */
+}
+.img-container img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-container img:hover {
+    transform: scale(1.1); /* Aumenta un 10% el tamaño */
+}

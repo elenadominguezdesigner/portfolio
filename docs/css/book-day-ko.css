@@ -1,0 +1,27 @@
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.video {
+    width: 640px;
+    height: 300px;
+    background-color: cornsilk;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;    
+}
+.grid.container {
+    grid-template-columns: 1fr;
+}
+.grid .one {
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid .one .image-container .img {
+    transition: transform 0.25s ease-in-out; /* Transición suave */
+}
+
+.grid .one .image-container .img:hover {
+    transform: scale(1.1); /* Aumenta un 10% en hover */
+}

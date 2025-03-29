@@ -1,0 +1,28 @@
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid {
+    display: grid;    
+}
+.grid.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    margin-bottom: 10px; /* Reduce el espacio debajo del grid container */
+    gap: 15px;
+}
+.grid.container .image-container .img {
+    transition: transform 0.25s ease-in-out; /* Transición suave */
+}
+
+.grid.container .image-container .img:hover {
+    transform: scale(1.1); /* Aumenta un 10% en hover */
+}
+.grid.huge {
+    display: flex;  /* Cambia el grid a flexbox */
+    flex-direction: column;  /* Organiza los elementos en columna */
+    align-items: center;  /* Centra las imágenes si es necesario */
+    gap: 20px;  /* Ajusta el espacio entre imágenes */
+}

@@ -1,0 +1,123 @@
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 30px;
+    color: #FF0A76;
+}
+.main {
+    background-color: #FF0A76;
+}
+.nav-left {
+    padding-left: 0;
+}
+
+.navbar a {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.navbar .logo {
+    width: 280px;
+    height: auto;
+    transition: opacity 0.4s ease; /* Transición suave para el cambio */
+}
+
+.icon {
+    width: 19px;
+    height: 19px;
+    margin-top: 3px;
+    fill: #FF0A76;
+}
+.logo {
+    transition: color 0.5s ease, transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.04);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #FF0A76;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+    transition: color 0.5s ease, transform 0.3s ease;
+    display: inline-block; /* Evita problemas con transform */
+}
+
+.navbar ul li a:hover {
+    color:  #FF7BAC; /* El color al pasar el ratón */
+    transform: scale(1.1); /* Hace el ícono más grande en hover */
+}
+
+.burger-menu {
+    display: none;
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .navbar {
+        position: fixed;
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        text-align: center;
+        z-index: 500;
+    }
+    .navbar .logo {
+        width: 250px;
+        order: 1;
+        padding-top: 10px;
+        text-align: start;
+    }
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .navbar .nav-left {
+        order: 2;
+        display: none;
+    }
+    .navbar .nav-right {
+        display: none;
+        order: 3;
+        padding: 0;
+    }
+    .logo-container {
+        width: 100%;
+        display: flex;        
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .logo-container .logo {
+        display: inline-block;
+    }
+
+    .burger-menu {
+        display: inline;
+        cursor: pointer;
+        order: 2;
+    }
+    .burger-menu span {
+        height: 100%;
+        display: inline-block;
+        font-size: 40px;
+    }
+}

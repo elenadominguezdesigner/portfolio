@@ -1,0 +1,44 @@
+.section .logo {
+    margin-top: 20px;
+    padding: 0 15%;
+}
+.grid .one {
+    grid-template-columns: 5fr 5fr 5fr    
+}
+
+.img-container img[src$="FW-BOX MOCKUP.jpg"] {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-container img[src$="FW.DOG.jpg"] {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-container img[src$="FW-LABELS.jpg"] {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Asegura que las imágenes en el grid de tres columnas mantengan el formato adecuado */
+.grid .one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Asegura tres columnas de igual tamaño */
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Efecto hover solo en las imágenes dentro del grid .one */
+.grid .one img {
+    width: 100%; /* Las imágenes dentro del grid ocupan todo el espacio disponible */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.grid .one img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
+}

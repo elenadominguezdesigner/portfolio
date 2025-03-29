@@ -1,0 +1,96 @@
+/* Contenedor principal */
+.section {
+    padding: 20px;
+}
+
+/* Contenedor de título y descripción */
+.details-container {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: gray;
+}
+.header-image-container {
+    width: 100%;  /* Hace que la imagen ocupe todo el ancho */
+    margin-bottom: 0px;  /* Espacio debajo de la imagen */
+}
+
+.header-image {
+    width: 100%;  /* La imagen ocupa todo el ancho disponible */
+    height: auto;  /* Mantiene la relación de aspecto */
+    border-radius: 0;  /* Elimina bordes redondeados si los tiene */
+}
+/* Estilo para el contenedor de texto y la imagen */
+.grid.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea el contenido en la parte superior */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+/* Columna de texto */
+.text-container {
+    padding: 5px;  /* Aplica un margen interno (padding) a los lados */
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: justify; /* Justificar el texto */
+}
+
+/* Estilo para la imagen */
+.image-container .img {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 10px; /* Esquinas redondeadas para la imagen */
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Responsividad: Cuando la pantalla es más pequeña */
+@media (max-width: 768px) {
+    .grid.container {
+        flex-direction: column; /* Cambiar a disposición vertical */
+        align-items: center;
+    }
+
+    .text-container {
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: justify; /* Asegura que el texto se justifique también en pantallas pequeñas */
+    }
+
+    .image-container .img {
+        width: 80%; /* Reducir el tamaño de la imagen en pantallas pequeñas */
+        margin-top: 20px;
+    }
+}
+/* Estilo para los textos en general (grises) */
+.text-container p {
+    color: #808080;  /* Gris oscuro */
+    line-height: 1.6; /* Espaciado entre líneas para mayor legibilidad */
+}
+
+/* Estilo para los títulos (negros) */
+.text-container h1,
+.text-container h3 {
+    color: #000000;  /* Negro para los títulos */
+}
+
+/* Estilo para listas y otros textos dentro de la sección */
+.text-container ul {
+    color: #808080;  /* Gris oscuro */
+}
+/* Estilo para los textos en negrita (rosas fucsias) */
+.text-container strong {
+    color:  #000000; /* Rosa fucsia */
+}
