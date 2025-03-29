@@ -17,7 +17,7 @@ gridImages:
 <section class="section">
     <div class="details-container">
         <h1 class="title">SCREWLESS ENTRANCE CABINET-Furniture<br>Design</h1>
-        <p class="description">Design of an entryway furniture without screws, joined by means of laces. The objective of this project is to facilitate assembly, avoid waste of materials and be functional in space.</p>
+        <p class="description">Design of an entryway furniture without screws, joined by means of laces.<br><br>The objective of this project is to facilitate assembly, avoid waste of materials and be functional in space.</p>
     </div>
     <div class="grid container">
             <div class="image-container">

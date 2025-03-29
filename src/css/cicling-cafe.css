@@ -29,7 +29,6 @@
 }
 
 .grid .one .image-container img {
-    height: 100%;  /* Ocupa el 100% del contenedor */
     width: 100%;  /* Ocupa el 100% del contenedor */
 }
 
@@ -42,4 +41,13 @@
 /* Transición suave para todas las imágenes */
 .grid .image-container img {
     transition: transform 0.3s ease;
+}
+@media (max-width: 768px) {
+    .grid .one {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid .one .image-container {
+        max-width: 200px;
+        max-height: 150px;  /* O ajusta este valor según el tamaño deseado */
+    }
 }

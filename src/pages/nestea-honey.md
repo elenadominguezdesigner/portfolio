@@ -13,7 +13,7 @@ styles: "nestea-honey.css"
     </div>
     <div class="grid container">
         <div class="image-container">
-            <img class="img" src="/images/index/image12.png" alt="">
+            <img class="img" src="/images/index/image12.jpg" alt="">
         </div>        
     </div>
 </section>

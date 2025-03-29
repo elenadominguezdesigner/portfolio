@@ -19,30 +19,7 @@ gridImages:
         <h1 class="title">DINOSHOES-Collage and Illustration<br>Design</h1>
         <p class="description">Shoes collection publicity and design, vintage collage edition.</p>
     </div>
-    <div class="grid container">
-            <div class="image-container">
-                <img class="img" src="/images/dinoshoes/dino1.jpg" alt="">
-            </div>
-            <div class="image-container">
-                <img class="img" src="/images/dinoshoes/dino2.jpg" alt="">
-            </div>
-            <div class="image-container">
-                <img class="img" src="/images/dinoshoes/dino3.jpg" alt="">
-            </div>
-            <div class="image-container">
-                <img class="img" src="/images/dinoshoes/dino4.jpg" alt="">
-            </div>
-            <div class="image-container">
-                <img class="img" src="/images/dinoshoes/dino5.jpg" alt="">
-            </div>
-            <div class="image-container">
-                <img class="img" src="/images/dinoshoes/dino6.jpg" alt="">
-            </div>
-            <div class="image-container">
-                <img class="img" src="/images/dinoshoes/dino7.jpg" alt="">
-            </div>
-    </div>
-    <div class="grid huge">
+    <div class="grid container huge">
         <div class="image-container">
             <img class="img" src="/images/dinoshoes/dino1.jpg" alt="">
         </div>
