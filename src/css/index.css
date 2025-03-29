@@ -128,4 +128,19 @@
     .hero-section {
         margin-top: 108px;
     }
+    .image-container .overlay {
+        top: auto;
+        left: auto;
+        bottom: 0;
+        height: 25%;
+        opacity: 1;
+    }
+
+    .image-container .overlay h3, .image-container .overlay .date {
+        font-size: 16px;
+    }
+
+    .image-container .overlay h3 {
+        padding-top: 14px;
+    }
 }
