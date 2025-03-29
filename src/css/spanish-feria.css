@@ -36,6 +36,7 @@
 }
 .grid .three{
     display: grid;
+    gap: 8px;
     grid-template-columns: repeat(2, 1fr);
 }
 .grid .four{
@@ -45,5 +46,12 @@
 .grid .five{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    gap: 5px;
+    gap: 20px;
+}
+.grid.five .image-container .img {
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+.grid.five .image-container .img:hover {
+    transform: scale(1.1); /* Aumenta un 10% en hover */
 }

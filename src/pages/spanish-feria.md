@@ -15,7 +15,7 @@ styles: "spanish-feria.css"
         <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-MARQUESINA BUS.jpg" alt="">
         </div>
-        <div class="grid one">
+        <div class="grid container one">
             <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR 1.jpg" alt="">
             </div>
@@ -26,13 +26,13 @@ styles: "spanish-feria.css"
                 <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR MOBILIARIO.jpg" alt="">
             </div>
             <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR 1.jpg" alt="">
+                <img class="img" src="/images/spanish-feria/FH-CARTEL EXTERIOR TEXTIL.jpg" alt="">
             </div>
         </div>
         <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-PHOTOCALL ENTERO.jpg" alt="">
         </div>
-        <div class="grid two">
+        <div class="grid container two">
             <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-ACTIVIDADES.jpg" alt="">
             </div>
@@ -55,18 +55,12 @@ styles: "spanish-feria.css"
                 <img class="img" src="/images/spanish-feria/FH-TALLERES.jpg" alt="">
             </div>
         </div>
-        <div class="grid three">
+        <div class="grid container three">
             <div class="image-container">
-                <img class="img modal-trigger" src="/images/spanish-feria/FH-COMBO.jpg" alt="">
+                <img class="img" src="/images/spanish-feria/FH-COMBO.jpg" alt="">
             </div>
             <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-COMBO DETRÁS.jpg" alt="">
-            </div>
-            <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-DOMINGO.jpg" alt="">
-            </div>
-            <div class="image-container">
-                <img class="img" src="/images/spanish-feria/FH-DOMINGO DETRÁS.jpg" alt="">
             </div>
             <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-SÁBADO.jpg" alt="">
@@ -80,8 +74,14 @@ styles: "spanish-feria.css"
             <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-VIERNES DETRÁS.jpg" alt="">
             </div>
+            <div class="image-container">
+                <img class="img" src="/images/spanish-feria/FH-DOMINGO.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="img" src="/images/spanish-feria/FH-DOMINGO DETRÁS.jpg" alt="">
+            </div>
         </div>
-        <div class="grid four">
+        <div class="grid container four">
             <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-AUTOBÚS DEL.jpg" alt="">
             </div>
@@ -89,7 +89,7 @@ styles: "spanish-feria.css"
                 <img class="img" src="/images/spanish-feria/FH-AUTOBÚS TRASERO.jpg" alt="">
             </div>
         </div>
-        <div class="grid five">
+        <div class="grid container five">
             <div class="image-container">
                 <img class="img" src="/images/spanish-feria/FH-SEÑAL SUELO SITIOS.jpg" alt="">
             </div>
