@@ -49,78 +49,73 @@ gridImagesTwo:
             <img class="img" src="/images/defive/d0.jpg" alt="">
         </div>
         <p class="description">MODELATING IN RHINOCEROS 3D and SKETCHUP</p>
-    <div class="grid container">
         <div class="image-container">
             <img class="img" src="/images/defive/d1huge.jpg" alt="">
         </div>
-    <div class="grid container">
         <div class="image-container">
             <img class="img" src="/images/defive/d2huge.jpg" alt="">
         </div>
-    <div class="grid container">
         <div class="image-container">
             <img class="img" src="/images/defive/d4huge.jpg" alt="">
         </div>
-    <div class="grid container">
         <div class="image-container">
             <img class="img" src="/images/defive/d13huge.jpg" alt="">
         </div>
-    <div class="grid container">
         <div class="grid one">
-                <div class="image-container">
-                    <img class="img" src="/images/defive/d3.jpg" alt="">
-                </div>
-                <div class="image-container">
-                    <img class="img" src="/images/defive/d5.jpg" alt="">
-                </div>
-                <div class="image-container">
-                    <img class="img" src="/images/defive/d6.jpg" alt="">
-                </div>
-                <div class="image-container">
-                    <img class="img" src="/images/defive/d7.jpg" alt="">
-                </div>
-                <div class="image-container">
-                    <img class="img" src="/images/defive/d8.jpg" alt="">
-                </div>
-                <div class="image-container">
-                    <img class="img" src="/images/defive/d9.jpg" alt="">
-                </div>
-                <div class="image-container">
-                    <img class="img" src="/images/defive/d10.jpg" alt="">
-                </div>
-                <div class="image-container">
-                    <img class="img" src="/images/defive/d11.jpg" alt="">
-                </div>
-                <div class="image-container">
-                    <img class="img" src="/images/defive/d12.jpg" alt="">
-                </div>
+            <div class="image-container">
+                <img class="img" src="/images/defive/d3.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="img" src="/images/defive/d5.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="img" src="/images/defive/d6.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="img" src="/images/defive/d7.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="img" src="/images/defive/d8.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="img" src="/images/defive/d9.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="img" src="/images/defive/d10.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="img" src="/images/defive/d11.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img class="img" src="/images/defive/d12.jpg" alt="">
+            </div>
         </div>
-    <div class="video">
-     <iframe 
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/21G24VoABbU" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
-    </div>
+        <div class="video">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/21G24VoABbU" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
         <p class="description">Technical and artistic drawings created in AutoCAD and refined through post-processing in Photoshop and Procreate</p>
-    <div class="grid two">
-        <div class="image-container">
-            <img class="img" src="/images/defive/l1.jpg" alt="">
-        </div>
+        <div class="grid two">
             <div class="image-container">
-            <img class="img" src="/images/defive/l2.jpg" alt="">
-        </div>
-    </div>
-    <div class="grid container">
-        <div class="image-container">
-            <img class="img" src="/images/defive/dt0.jpg" alt="">
-        </div>
+                <img class="img" src="/images/defive/l1.jpg" alt="">
+            </div>
             <div class="image-container">
-                 <img class="img" src="/images/defive/dt1.jpg" alt="">
+                <img class="img" src="/images/defive/l2.jpg" alt="">
+            </div>
+        </div>
+        <div class="grid container">
+            <div class="image-container">
+                <img class="img" src="/images/defive/dt0.jpg" alt="">
+            </div>
+            <div class="image-container">
+                    <img class="img" src="/images/defive/dt1.jpg" alt="">
             </div>
             <div class="image-container">
                 <img class="img" src="/images/defive/dt2.jpg" alt="">
@@ -144,4 +139,5 @@ gridImagesTwo:
                 <img class="img" src="/images/defive/dpattern.jpg" alt="">
             </div>
         </div>
+    </div>
 </section>
