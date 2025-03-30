@@ -2,6 +2,9 @@
     margin-top: 20px;
     padding: 0 15%;
 }
+.logo:hover {
+    transform: none;
+}
 .grid .one {
     grid-template-columns: 5fr 5fr 5fr    
 }
