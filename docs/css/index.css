@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    background-image: url('/images/index/hero1.jpg'); /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     text-align: center;
