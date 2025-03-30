@@ -10,7 +10,7 @@ menu: true
     </div>
             <!-- Imagen justo después de "What Defines Me" -->
             <div class="header-image-container">
-                <img src="/images/aboutme/letsworkhelen.JPG" alt="Elena Domínguez" class="header-image">
+                <img src="/images/aboutme/letsworkhelen.jpg" alt="Elena Domínguez" class="header-image">
             </div>
     <div class="grid container">
         <div class="text-container">
