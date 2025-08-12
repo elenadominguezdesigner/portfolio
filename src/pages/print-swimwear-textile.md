@@ -1,7 +1,7 @@
 ---
 title: PRINT SWIMWEAR DESIGN-EASY WEAR MEN 2025
 order: 1
-subtitle: Print Swimwear Design
+subtitle: PRINT SWIMWEAR DESIGN
 projectDate: "2025"
 mainImage: "/images/printswimwear/pinguino0.png"
 styles: "printswimwear.css"
