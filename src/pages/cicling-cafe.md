@@ -1,6 +1,6 @@
 ---
 title: CICLING CAFE
-order: 13
+order: 15
 subtitle: CICLING CAFE-Interior and Graphic Design
 projectDate: "2022"
 mainImage: "/images/index/image13.jpg"

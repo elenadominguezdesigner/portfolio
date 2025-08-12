@@ -1,6 +1,6 @@
 ---
 title: Insect
-order: 3
+order: 5
 subtitle: INSECT MADNESS-Textile Print Design
 projectDate: "2023"
 mainImage: "/images/index/image3.jpg"

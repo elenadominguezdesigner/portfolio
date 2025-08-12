@@ -1,6 +1,6 @@
 ---
 title: NESTEA HONEY
-order: 12
+order: 14
 subtitle: NESTEA HONEY-Packaging Redesign
 projectDate: "2020"
 mainImage: "/images/index/image12.jpg"

@@ -1,6 +1,6 @@
 ---
 title: BOOK DAY KO
-order: 16
+order: 18
 subtitle: BOOK DAY KO- Graphic Design
 projectDate: "2020"
 mainImage: "/images/bookdayko/ko1.jpg"

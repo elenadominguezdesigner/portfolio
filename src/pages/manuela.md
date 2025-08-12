@@ -1,6 +1,6 @@
 ---
 title: Chocolates Manuela
-order: 2
+order: 4
 subtitle: MANUELA'S CHOCOLATE-Brand Design Logo
 projectDate: "2024"
 mainImage: "/images/index/image2.jpg"

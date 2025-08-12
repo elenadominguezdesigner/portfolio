@@ -1,6 +1,6 @@
 ---
 title: Furry Whispers
-order: 1
+order: 3
 subtitle: FURRY WHISPERS-Fashion Pet Brand Design
 projectDate: "2025"
 mainImage: "/images/index/image1.jpg"
